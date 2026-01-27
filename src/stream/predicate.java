@@ -32,12 +32,15 @@ public class predicate {
 		  Supplier<String> Hello = ()->"Hello";
 		  System.out.println(Hello.get());
 		  
+		  //Method refrence
+		  List<String> student = Arrays.asList("Ram", "Shyam", "ghanshyam");
+		  student.forEach(x->System.out.println(x));
+		  student.forEach(System.out::println);
 		  
 		  
 		  
 		  
-		  
-		  
+		 
 
 	}
 
